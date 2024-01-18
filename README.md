@@ -6,7 +6,9 @@
 
 
 **Simple code example**
+
 //------------------------
+
 uses
   Keras,
   Keras.Layers,
@@ -102,4 +104,5 @@ loaded_model.LoadWeight('model.h5');
 Readln;
 
 end.
+
 //------------------------
