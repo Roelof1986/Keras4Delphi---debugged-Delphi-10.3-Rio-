@@ -4,6 +4,8 @@
 4. Download and unzip Keras4Delphi - debugged
 5. Compile and run Project1.dproj or Project2.dproj in Delphi
 
+Important note: the function ToDoubleArray I manually added, because there was no such function. This function only works on a one-dimensional array! So you have to reshape a multi-dimensional array: y_test := TNDArray(y_test.reshape[len, 1]);
+I will fix this bug ASAP.
 
 **Simple code example**
 
