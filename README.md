@@ -1,6 +1,16 @@
-1. Install Delphi 10.3 Rio
-2. Install Python 3.9 (64-bit)
-3. Install TensorFlow 2.15.0
+**for CPU:**
+
+1. Install Delphi 10.3 Rio/10.4 Sydney
+2. Install Python 3.9 (64-bit) or Python 3.12 (64-bit)
+3. Install TensorFlow 2.15.0 or TensorFlow 2.16.1
+4. Download and unzip Keras4Delphi - debugged
+5. Compile and run Project1.dproj or Project2.dproj in Delphi
+
+**for GPU:**
+
+1. Install Delphi 10.3 Rio/10.4 Sydney
+2. Install Python 3.10 (64-bit)
+3. Install TensorFlow 2.10.0
 4. Download and unzip Keras4Delphi - debugged
 5. Compile and run Project1.dproj or Project2.dproj in Delphi
 
