@@ -14,6 +14,13 @@
 4. Download and unzip Keras4Delphi - debugged
 5. Compile and run Project1.dproj or Project2.dproj in Delphi
 
+**for GPU first (real-time bug fix):
+1. Install CUDA 11.8 and CUDA 12.2
+2. Install CuDNN 8.6
+3. Install Python 3.9
+4. Install TensorFlow 2.10
+5. Copy needed dll files to .exe path (when requested by error message while running Delphi project)
+
 Important note: the function ToDoubleArray I manually added, because there was no such function. This function only works on a one-dimensional array! So you have to reshape a multi-dimensional array: y_test := TNDArray(y_test.reshape[len, 1]);
 I will fix this bug ASAP.
 
