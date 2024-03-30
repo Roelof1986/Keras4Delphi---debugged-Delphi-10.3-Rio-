@@ -14,7 +14,7 @@
 4. Download and unzip Keras4Delphi - debugged
 5. Compile and run Project1.dproj or Project2.dproj in Delphi
 
-**for GPU first (real-time bug fix):
+**for GPU first (real-time bug fix):**
 1. Install CUDA 11.8 and CUDA 12.2
 2. Install CuDNN 8.6
 3. Install Python 3.9
