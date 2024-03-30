@@ -19,7 +19,7 @@
 2. Install CuDNN 8.6
 3. Install Python 3.9
 4. Install TensorFlow 2.10
-5. Copy needed dll files to .exe path (when requested by error message while running Delphi project)
+5. Copy needed dll files to .exe path (when reported error while running Delphi project)
 
 Important note: the function ToDoubleArray I manually added, because there was no such function. This function only works on a one-dimensional array! So you have to reshape a multi-dimensional array: y_test := TNDArray(y_test.reshape[len, 1]);
 I will fix this bug ASAP.
